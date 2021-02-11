@@ -8,6 +8,7 @@ alias cp='cp -i'
 alias rm='rm -i'
 
 alias ..='cd ..'
+
 cdls ()
 {
 \cd "$@" && ls
@@ -15,9 +16,3 @@ cdls ()
 alias cd='cdls'
 
 alias c='clear' #コマンドラインクリア
-
-alias bashrc='source ~/.bashrc' # bashrc再読み込み
-alias bash_profile='source ~/.bash_profile' # bash_profile再読み込み
-alias bash_aliases='source ~/.bash_aliases'
-
-alias ping='ping -c 5' #ping 5回送信
