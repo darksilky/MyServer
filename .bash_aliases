@@ -11,7 +11,7 @@ alias ..='cd ..'
 
 cdls ()
 {
-\cd "$@" && ls
+\cd "$@" && ls -a
 }
 alias cd='cdls'
 
