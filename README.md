@@ -2,5 +2,5 @@
 su -
 ```
 ```bash
-apt install sudo vim htop bashtop bash-completion
+apt install sudo vim htop bashtop bash-completion exa
 ```
