@@ -2,5 +2,5 @@
 su -
 ```
 ```bash
-apt install sudo vim htop bash-completion exa qemu-guest-agent
+apt install sudo vim htop bash-completion exa qemu-guest-agent bat
 ```
