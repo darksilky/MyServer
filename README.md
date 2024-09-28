@@ -10,6 +10,18 @@ su -
 apt update && apt install -y sudo vim htop zsh git curl
 ```
 
+普段使うユーザーにsudoの権限を与える
+```bash
+usermod -aG sudo USER
+```
+
+再起動する
+```bash
+reboot
+```
+
+ここまでsu状態でする
+
 sshの鍵を追加する
 
 ```bash
@@ -21,11 +33,8 @@ chmod 600 .ssh/authorized_keys
 
 
 
-普段使うユーザーにsudoの権限を与える
-```bash
-usermod -aG sudo USER
-```
-再起動する
+
+
 
 
 
