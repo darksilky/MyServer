@@ -15,6 +15,8 @@ sshの鍵を追加する
 ```bash
 mkdir .ssh
 curl https://github.com/darksilky.keys >> ~/.ssh/authorized_keys
+chmod 700 .ssh
+chmod 600 .ssh/authorized_keys
 ```
 
 
