@@ -7,7 +7,7 @@ su -
 ```
 
 ```bash
-apt update && apt install -y sudo vim htop zsh git curl
+apt update && apt install -y sudo vim htop zsh git curl dnsutils
 ```
 
 普段使うユーザーにsudoの権限を与える
