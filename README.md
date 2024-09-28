@@ -1,8 +1,3 @@
-sshの鍵を追加する
-
-```bash
-curl https://github.com/darksilky.keys >> ~/.ssh/authorized_keys
-```
 
 
 まずは足りていないパッケージをインストール
@@ -14,6 +9,14 @@ su -
 ```bash
 apt install sudo vim htop zsh git curl
 ```
+
+sshの鍵を追加する
+
+```bash
+curl https://github.com/darksilky.keys >> ~/.ssh/authorized_keys
+```
+
+
 
 普段使うユーザーにsudoの権限を与える
 ```bash
