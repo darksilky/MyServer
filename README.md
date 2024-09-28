@@ -13,6 +13,7 @@ apt update && apt install -y sudo vim htop zsh git curl
 sshの鍵を追加する
 
 ```bash
+mkdir .ssh
 curl https://github.com/darksilky.keys >> ~/.ssh/authorized_keys
 ```
 
