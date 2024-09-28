@@ -7,7 +7,7 @@ su -
 ```
 
 ```bash
-apt install sudo vim htop zsh git curl
+apt update && apt install sudo vim htop zsh git curl
 ```
 
 sshの鍵を追加する
