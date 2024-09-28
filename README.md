@@ -6,7 +6,7 @@ su -
 ```
 
 ```bash
-apt install sudo vim htop zsh git
+apt install sudo vim htop zsh git curl
 ```
 
 普段使うユーザーにsudoの権限を与える
@@ -14,6 +14,12 @@ apt install sudo vim htop zsh git
 usermod -aG sudo USER
 ```
 再起動する
+
+sshの鍵を追加する
+
+```bash
+curl https://github.com/darksilky.keys >> ~/.ssh/authorized_keys
+```
 
 zshのインストールを完了させる
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
