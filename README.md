@@ -1,3 +1,9 @@
+sshの鍵を追加する
+
+```bash
+curl https://github.com/darksilky.keys >> ~/.ssh/authorized_keys
+```
+
 
 まずは足りていないパッケージをインストール
 
@@ -15,11 +21,7 @@ usermod -aG sudo USER
 ```
 再起動する
 
-sshの鍵を追加する
 
-```bash
-curl https://github.com/darksilky.keys >> ~/.ssh/authorized_keys
-```
 
 zshのインストールを完了させる
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
