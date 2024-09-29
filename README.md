@@ -59,3 +59,7 @@ proxmoxなどの仮想環境なら
 ```bash
 apt install  qemu-guest-agent
 ```
+
+ipを固定したい場合
+https://qiita.com/dj5fs/items/995a156a9f161f640a31
+systemctl enable systemd-networkd
