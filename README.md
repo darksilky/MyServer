@@ -61,5 +61,7 @@ apt install  qemu-guest-agent
 ```
 
 ipを固定したい場合
-https://qiita.com/dj5fs/items/995a156a9f161f640a31
-systemctl enable systemd-networkd
+
+netplanでの調整に切り替え
+
+https://zenn.dev/honahuku/articles/netplan_static_ip_debian12
